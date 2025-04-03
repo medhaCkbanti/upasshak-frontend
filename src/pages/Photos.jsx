@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchImages } from "../Features/imageSlice";
 import { MdArrowForwardIos, MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
+import img1 from "../assets/01-700x300.jpg"
 
 const Photos = () => {
   const dispatch = useDispatch();
@@ -66,7 +67,7 @@ const Photos = () => {
         className="w-full h-80"
       >
         <img
-          src="/src/assets/01-700x300.jpg"
+          src={img1}
           className="w-full h-full object-cover"
           alt="Banner"
         />
