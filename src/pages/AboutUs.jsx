@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 import MissionVission from "../components/MissionVission";
+import img1 from "../assets/Home_02.jpg"
 
 const AboutUs = () => {
   useEffect(() => {
@@ -65,7 +66,7 @@ const AboutUs = () => {
             className="lg:w-1/2"
           >
             <img
-              src="/src/assets/Home_02.jpg"
+              src={img1}
               alt="About Upasshak"
               className="w-full h-auto max-h-[600px] rounded-lg shadow-lg"
             />
